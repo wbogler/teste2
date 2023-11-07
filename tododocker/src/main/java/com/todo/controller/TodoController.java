@@ -30,5 +30,10 @@ public class TodoController {
 		}
 		return toShow;
 	}
+	
+	@GetMapping("/log")
+	public String testeRotaLivre() {
+		return "<h1> Rota livre </h1>";
+	}
 
 }

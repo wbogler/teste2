@@ -8,8 +8,8 @@ import jakarta.persistence.Table;
 import lombok.Data;
 
 @Data
-@Table
-@Entity(name = "todo")
+@Table (schema = "app", name = "todo")
+@Entity
 public class ToDoEntity {
 	
 	@Id

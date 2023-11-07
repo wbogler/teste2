@@ -1,5 +1,5 @@
-com\todo\services\ToDoService.class
 com\todo\TododockerApplication.class
 com\todo\entities\ToDoEntity.class
 com\todo\controller\TodoController.class
+com\todo\services\ToDoService.class
 com\todo\respositories\ToDoRepository.class
