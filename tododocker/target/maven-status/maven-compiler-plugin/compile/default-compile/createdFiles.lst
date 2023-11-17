@@ -1,5 +1,9 @@
+com\todo\config\SecurityConfig.class
+com\todo\services\UserService.class
 com\todo\TododockerApplication.class
 com\todo\entities\ToDoEntity.class
 com\todo\controller\TodoController.class
+com\todo\respositories\UserRepository.class
+com\todo\entities\UserEntity.class
 com\todo\services\ToDoService.class
 com\todo\respositories\ToDoRepository.class

@@ -2,6 +2,8 @@ package com.todo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -31,8 +33,9 @@ public class TodoController {
 		return toShow;
 	}
 	
-	@GetMapping("/log")
-	public String testeRotaLivre() {
+	@PostMapping("/log")
+	public String testeRotaLivre(@RequestBody String teste) {
+		System.out.println(teste);
 		return "<h1> Rota livre </h1>";
 	}
 
